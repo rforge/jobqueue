@@ -1,0 +1,6 @@
+importFrom("parallel", makeCluster)
+
+export(Q.make, Q.isready, Q.push, Q.do, Q.assign, Q.sync, Q.do.call, Q.collect,
+	Q.pop, Q.collect.all, Q.pop.all, Q.close)
+
+S3method(print, jobqueue)

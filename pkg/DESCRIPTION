@@ -1,0 +1,14 @@
+Package: jobqueue
+Type: Package
+Title: Generic Asynchronous Job Queue
+Version: 1.0-4
+Date: 2015-04-22
+Authors@R: person("Bastian", "Laubner", role=c("aut", "cre"),
+				email = "bastian.laubner@bramblecloud.com")
+Author: Bastian Laubner [aut, cre]
+Maintainer: Bastian Laubner <bastian.laubner@bramblecloud.com>
+URL: https://www.bramblecloud.com
+Depends: R (>= 2.14.0)
+Imports: parallel
+Description: A general-purpose job queue based on a 1-node socket cluster as provided by the parallel package.
+License: MIT + file LICENSE
