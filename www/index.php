@@ -55,7 +55,7 @@ subjective what is actually "intuitive", feel free to post your suggestions to t
 <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>project summary page</strong></a>.</p>
 
 <p> Typical applications include: background computation of lengthy tasks (such as data sourcing, model fitting),
-simple/interactive parallelization (if you have 5 different jobs, move them to up to 5 different job queues), and basic threading
+simple/interactive parallelization (if you have 5 different jobs, move them to up to 5 different job queues), and concurrent task scheduling
 in more complicated R programs. <a href="https://www.bramblecloud.com">Bramblecloud's cloud computing service for R</a> uses the jobqueue
 package as an asynchronous wrapper for synchronous remote connections.</p>
 
