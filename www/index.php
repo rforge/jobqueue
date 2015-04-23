@@ -39,13 +39,25 @@ while (!feof($handle)) {
 	$contents .= fread($handle, 8192);
 }
 fclose($handle);
-echo $contents; } ?>
+//echo $contents;  // DISABLED
+} ?>
 
 <!-- end of project description -->
 
-<p> No content added. </p>
+<h1>The jobqueue Package - a Generic Asynchronous Job Queue Implementation for R</h1>
 
-<p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
+<p> The jobqueue package is meant to provide an easy-to-use interface that allows to queue computations for background evaluation
+while the calling R session remains responsive. It is based on a 1-node socket cluster from the parallel package. The package provides
+a way to do basic threading in R.</p>
+
+<p> The main focus of the package is on an intuitive and easy-to-use interface for the job queue programming construct. As it is somewhat
+subjective what is actually "intuitive", feel free to post your suggestions to the jobqueue-help mailing list on the
+<a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>project summary page</strong></a>.</p>
+
+<p> Typical applications include: background computation of lengthy tasks (such as data sourcing, model fitting),
+simple/interactive parallelization (if you have 5 different jobs, move them to up to 5 different job queues), and basic threading
+in more complicated R programs. <a href="https://www.bramblecloud.com">Bramblecloud's cloud computing service for R</a> uses the jobqueue
+package as an asynchronous wrapper for synchronous remote connections.</p>
 
 </body>
 </html>
