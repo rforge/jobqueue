@@ -59,5 +59,7 @@ simple/interactive parallelization (if you have 5 different jobs, move them to u
 in more complicated R programs. <a href="https://www.bramblecloud.com">Bramblecloud's cloud computing service for R</a> uses the jobqueue
 package as an asynchronous wrapper for synchronous remote connections.</p>
 
+<p> Click <a href="/jobqueue-manual.pdf">here</a> for the package documentation.</p>
+
 </body>
 </html>
