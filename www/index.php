@@ -54,12 +54,17 @@ a way to do basic threading in R.</p>
 subjective what is actually "intuitive", feel free to post your suggestions to the jobqueue-help mailing list on the
 <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>project summary page</strong></a>.</p>
 
-<p> Typical applications include: background computation of lengthy tasks (such as data sourcing, model fitting),
+<p> Typical applications include: background computation of lengthy tasks (such as data sourcing, model fitting, 
+bootstrapping), 
 simple/interactive parallelization (if you have 5 different jobs, move them to up to 5 different job queues), and concurrent task scheduling
 in more complicated R programs. <a href="https://www.bramblecloud.com">Bramblecloud's cloud computing service for R</a> uses the jobqueue
 package as an asynchronous wrapper for synchronous remote connections.</p>
 
-<p> Click <a href="/jobqueue-manual.pdf">here</a> for the package documentation.</p>
+<h2>Installation</h2>
+
+<p> Enter the command <mark>install.packages("jobqueue", repos="http://R-Forge.R-project.org")</mark> into your R session.</p>
+
+<p> Click <a href="/jobqueue-manual.pdf">here</a> for the package's function documentation.</p>
 
 </body>
 </html>
