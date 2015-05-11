@@ -62,7 +62,7 @@ package as an asynchronous wrapper for synchronous remote connections.</p>
 
 <h2>Installation</h2>
 
-<p> Enter the command <mark>install.packages("jobqueue", repos="http://R-Forge.R-project.org")</mark> into your R session.</p>
+<p> Enter the command <mark>install.packages("jobqueue", repos="http://R-Forge.R-project.org", type="source")</mark> into your R session.</p>
 
 <p> Click <a href="/jobqueue-manual.pdf">here</a> for the package's function documentation.</p>
 
